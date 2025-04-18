@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root { 
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --main-dark-blue: hsl(217, 54%, 11%);
+  --card-dark-blue: hsl(216, 50%, 16%);
+  --line-dark-blue: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Outfit";
+}
+
+ body {
+  height: 100vh;
+  background-color: var(--main-dark-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: var(--card-dark-blue);
+  width: 18rem;
+  padding: 1.2rem;
+  border-radius: 9px;
+}
+
+.thumbnail {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 0.3rem;
+}
+
+h1{
+  color: var(--White);
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+p{
+  color: var(--Soft-blue);
+  font-weight: 200;
+  font-size: 0.95rem;
+  opacity: 0.8;
+}
+
+.info-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.price {
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--Cyan);  
+}
+
+.price-image {
+  height: 0.95rem;
+}
+
+.day-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.day-image {
+  height: 0.9rem;
+}
+
+.day{
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--Soft-blue);
+}
+
+hr{
+  margin: 1.3rem 0 1rem 0;
+  color: var(--line-dark-blue);
+  border: 1px solid var(--line-dark-blue);
+}
+
+
+.author-box {
+  display: flex;
+  align-items: center;
+  font-size: 0.86rem;
+  color: var(--White);
+  margin-bottom: 0.8rem;
+} 
+
+.img-box {
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  border: 1px solid var(--White);
+  margin-right: 0.8rem;
+}
+
+.author-profile{
+  width: 100%;
+  height: 100%;
+}
+.author > span {
+  color: var(--Soft-blue);
+  opacity: 0.8;
+}
+
