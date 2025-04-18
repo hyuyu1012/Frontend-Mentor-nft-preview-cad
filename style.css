@@ -35,6 +35,8 @@
   width: 249.609px;
   height: 249.609px;
   position: relative;
+  cursor: pointer;
+
 }
 
 .thumbnail {
@@ -56,6 +58,7 @@
   background: hsla(var(--Cyan1), 0.5);
   opacity: 0;
   transition: opacity 0.2s;
+  
 }
 
 .container:hover .overlay {
